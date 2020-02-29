@@ -1,0 +1,23 @@
+mode: set
+ETL/extract/extract.go:21.56,24.16 2 1
+ETL/extract/extract.go:28.2,28.23 1 1
+ETL/extract/extract.go:24.16,26.3 1 1
+ETL/extract/extract.go:32.50,34.2 1 0
+ETL/load/load.go:16.42,17.40 1 1
+ETL/load/load.go:21.2,25.16 3 1
+ETL/load/load.go:29.2,29.23 1 1
+ETL/load/load.go:17.40,18.51 1 0
+ETL/load/load.go:25.16,27.3 1 0
+ETL/load/load.go:30.14,32.17 2 1
+ETL/load/load.go:35.22,37.30 2 1
+ETL/load/load.go:40.3,41.17 2 1
+ETL/load/load.go:44.10,45.46 1 0
+ETL/load/load.go:32.17,34.4 1 0
+ETL/load/load.go:37.30,39.4 1 1
+ETL/load/load.go:41.17,43.4 1 0
+ETL/transfer/transfer.go:9.42,11.2 1 1
+ETL/transfer/transfer.go:14.47,17.25 3 1
+ETL/transfer/transfer.go:25.2,25.10 1 1
+ETL/transfer/transfer.go:17.25,19.9 2 1
+ETL/transfer/transfer.go:19.9,21.4 1 0
+ETL/transfer/transfer.go:21.9,23.4 1 1
