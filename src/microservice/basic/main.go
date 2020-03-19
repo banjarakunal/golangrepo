@@ -13,15 +13,13 @@ import (
 
 func main() {
 	l := log.New(os.Stdout, "basic", log.LstdFlags)
-	hh := handlers.NewHello(l)
-	gb := handlers.NewGoodBye(l)
+	ph := handlers.NewProducts(l)
 
 	mux := http.NewServeMux()
-	mux.Handle("/", hh)
-	mux.Handle("/goodbye", gb)
+	mux.Handle("/", ph)
 
 	s := http.Server{
-		Addr:         ":9090",
+		Addr:         ":9091",
 		Handler:      mux,
 		IdleTimeout:  120 * time.Second,
 		ReadTimeout:  1 * time.Second,
